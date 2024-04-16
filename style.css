@@ -1,0 +1,140 @@
+.container{
+    width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    height: auto;
+    margin: auto;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  
+    
+   
+}
+.header{
+    
+    margin: 25px;
+}
+h5{
+    color: #e22d30;
+    border-top: 1px solid #ebebeb;
+    padding-top: 7px;
+    width: fit-content;
+}
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: black;
+    border-bottom: 5px solid red;
+    display: flex;
+  }
+  .navbar li a{
+    padding:12px 16px ;
+    color: white;
+    display: block;
+    text-decoration: none;
+    border-left: rgb(111, 106, 106,.8);
+    font-weight: bold;
+    font-size: small;
+  }
+  
+  .navbar a:hover{
+    background-color: red;
+  }
+  .mainlayout a{
+    text-decoration: none;
+    color: black;
+    
+  }
+  .mainlayout h3 a:hover{
+    color: #e22d30;
+    
+
+  }
+  .layout{
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+  }
+  
+  .sidelayout  li a:hover{
+   color: #e22d30;
+   
+  }
+  .searchbox{
+    
+    background-color: #e7dbdb;
+    padding: 10px 20px;
+    width:70%
+   
+  }
+  .searchbox input{
+    padding: 10px;
+    border: none;
+    width:100%
+  }
+  
+  .sidelayout h4{
+    border-bottom: 2px solid red;
+    padding-bottom: 5px;
+  }
+  .sidelayout ul{
+    list-style-type: none;
+    padding: 0;
+  }
+  .sidelayout li a{
+    text-decoration: none;
+    color: black;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(249, 245, 245);
+    padding-top: 5px;
+    display: block;
+  
+  }
+  .sidelayout{
+    padding: 15px 15px;
+  }
+  .footer{
+   
+    background-color: rgb(87, 85, 85);
+    padding: 5px 15px;
+    border-top:5px  solid  rgb(134, 129, 129);
+   
+  }
+  .footer p{
+    
+    color: white;
+  }
+  .mainlayout{
+    padding: 15px;
+  }
+  .mainlayout p{
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 15px;
+    font-weight: lighter;
+    
+  }
+  
+  .fa-clock {
+    font-size: 16px;
+    color: #776b6b;
+  }
+  .header h2{
+    padding-top: 10px;
+  }
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
